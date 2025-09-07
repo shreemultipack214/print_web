@@ -430,32 +430,34 @@ https://templatemo.com/tm-594-nexus-flow
         document.head.appendChild(style);
 
         // Contact form submission
-        document.querySelector('.btn-submit').addEventListener('click', function(e) {
-            e.preventDefault();
+        // document.querySelector('.btn-submit').addEventListener('click', function(e) {
+        //     e.preventDefault();
             
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+        //     const name = document.getElementById('name').value;
+        //     const email = document.getElementById('email').value;
+        //     const mobile = document.getElementById('mobile').value;
+        //     const message = document.getElementById('message').value;
             
-            if (name && email && message) {
-                // Simulate form submission
-                this.textContent = 'TRANSMITTING...';
-                this.style.background = 'linear-gradient(135deg, var(--primary-cyan), var(--primary-pink))';
+        //     if (name && email && message) {
+        //         // Simulate form submission
+        //         this.textContent = 'TRANSMITTING...';
+        //         this.style.background = 'linear-gradient(135deg, var(--primary-cyan), var(--primary-pink))';
                 
-                setTimeout(() => {
-                    this.textContent = 'TRANSMISSION COMPLETE';
-                    this.style.background = 'var(--primary-cyan)';
+        //         setTimeout(() => {
+        //             this.textContent = 'TRANSMISSION COMPLETE';
+        //             this.style.background = 'var(--primary-cyan)';
                     
-                    // Clear form
-                    document.getElementById('name').value = '';
-                    document.getElementById('email').value = '';
-                    document.getElementById('message').value = '';
+        //             // Clear form
+        //             document.getElementById('name').value = '';
+        //             document.getElementById('email').value = '';
+        //             document.getElementById('mobile').value = '';
+        //             document.getElementById('message').value = '';
                     
-                    // Reset button after 3 seconds
-                    setTimeout(() => {
-                        this.textContent = 'Transmit Message';
-                        this.style.background = '';
-                    }, 3000);
-                }, 2000);
-            }
-        });
+        //             // Reset button after 3 seconds
+        //             setTimeout(() => {
+        //                 this.textContent = 'Transmit Message';
+        //                 this.style.background = '';
+        //             }, 3000);
+        //         }, 2000);
+        //     }
+        // });
