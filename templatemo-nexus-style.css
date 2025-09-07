@@ -173,6 +173,7 @@ https://templatemo.com/tm-594-nexus-flow
                 linear-gradient(90deg, rgba(255, 0, 255, 0.03) 2px, transparent 2px);
             background-size: 100px 100px;
             animation: gridMove 30s linear infinite reverse;
+            display: none;
         }
 
         @keyframes gridMove {
@@ -634,6 +635,9 @@ https://templatemo.com/tm-594-nexus-flow
 
         /* Desktop Navigation Layout */
         @media (min-width: 769px) {
+
+            
+
             .mobile-menu-button {
                 display: none !important;
             }
@@ -773,6 +777,7 @@ https://templatemo.com/tm-594-nexus-flow
             min-height: 100vh;
             display: flex;
             align-items: center;
+            overflow: hidden;
         }
 
         .hero-container {
@@ -1042,6 +1047,7 @@ https://templatemo.com/tm-594-nexus-flow
             color: var(--text-secondary);
             max-width: 600px;
             margin: 0 auto;
+            margin-bottom: 30px;
         }
 
         .features-grid {
@@ -1441,6 +1447,8 @@ https://templatemo.com/tm-594-nexus-flow
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
+            
+
             .mobile-menu-button {
                 display: block !important;
             }
@@ -1511,6 +1519,8 @@ https://templatemo.com/tm-594-nexus-flow
         }
 
         @media (max-width: 480px) {
+
+            .about_grid {grid-template-columns: auto;}
             .stats-grid {
                 display: block;
             }
