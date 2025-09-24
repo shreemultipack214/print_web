@@ -393,7 +393,7 @@ https://templatemo.com/tm-594-nexus-flow
         });
 
         // Random cyber text effects
-        const cyberTexts = ['Consultation..', 'Material Selection', 'Production', 'Quality Check', 'Delivery', 'Customization'];
+        const cyberTexts = ['Shree Multi Pack', 'Material Selection', 'Production', 'Quality Check', 'Delivery', 'Customization', 'Shree Multi Pack'];
         
         setInterval(() => {
             const randomText = cyberTexts[Math.floor(Math.random() * cyberTexts.length)];
