@@ -80,16 +80,15 @@ https://templatemo.com/tm-594-nexus-flow
         </div>
         <nav class="mobile-menu-nav">
             <ul>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#stats">Stats</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-container">
             <h1 class="hero-title">
                 <span class="hero-nexus">SHREE</span> <span class="hero-flow">MULTI PACK</span>
@@ -128,7 +127,7 @@ https://templatemo.com/tm-594-nexus-flow
     </section>
 
     <!-- Features Section -->
-    <section class="features fade-up" id="features">
+    <section class="features fade-up" id="about">
         <div class="features-container">
             <div class="section-header">
                 <h2 class="section-title">About Us</h2>
@@ -211,11 +210,11 @@ https://templatemo.com/tm-594-nexus-flow
                     <div class="plan-price">$49</div>
                     <div class="plan-period">per neural link</div>
                     <ul class="plan-features">
-                        <li>Basic quantum processing</li>
-                        <li>5 holographic workspaces</li>
-                        <li>Standard encryption</li>
-                        <li>Community support matrix</li>
-                        <li>Reality sync enabled</li>
+                        <li>Consultation</li>
+                        <li>Material Selection</li>
+                        <li>Production</li>
+                        <li>Quality Check</li>
+                        <li>Delivery</li>
                     </ul>
                     <a href="#" class="btn-secondary">Enter System</a>
                 </div>
@@ -225,12 +224,11 @@ https://templatemo.com/tm-594-nexus-flow
                     <div class="plan-price">$149</div>
                     <div class="plan-period">per neural link</div>
                     <ul class="plan-features">
-                        <li>Advanced quantum algorithms</li>
-                        <li>Unlimited holo-workspaces</li>
-                        <li>Quantum encryption fortress</li>
-                        <li>Priority neural support</li>
-                        <li>Mind-reading analytics</li>
-                        <li>Hyperdrive sync protocol</li>
+                        <li>Consultation</li>
+                        <li>Material Selection</li>
+                        <li>Production</li>
+                        <li>Quality Check</li>
+                        <li>Delivery</li>
                     </ul>
                     <a href="#" class="btn-primary">Jack In</a>
                 </div>
@@ -240,12 +238,11 @@ https://templatemo.com/tm-594-nexus-flow
                     <div class="plan-price">$399</div>
                     <div class="plan-period">per neural link</div>
                     <ul class="plan-features">
-                        <li>Infinite processing power</li>
-                        <li>Custom reality matrices</li>
-                        <li>Temporal encryption layers</li>
-                        <li>Direct neural interface</li>
-                        <li>Predictive consciousness</li>
-                        <li>Quantum entanglement sync</li>
+                        <li>Consultation</li>
+                        <li>Material Selection</li>
+                        <li>Production</li>
+                        <li>Quality Check</li>
+                        <li>Delivery</li>
                     </ul>
                     <a href="#" class="btn-secondary">Ascend</a>
                 </div>
@@ -300,45 +297,25 @@ https://templatemo.com/tm-594-nexus-flow
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-links">
-                <!---- <a href="#">Privacy Policy</a>
+                <a href="#">Privacy Policy</a>
                 <span class="footer-separator">•</span>
                 <a href="#">Terms of Service</a>
                 <span class="footer-separator">•</span>
                 <a href="#">Documentation</a>
                 <span class="footer-separator">•</span>
-                <a href="#">Contact Support</a> ----->
+                <a href="#">Contact Support</a>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Shree Multi Pack. All realities reserved.</p>
-                <p class="footer-credit">View location with contact details 
-                    <a href="https://shreemultipack214.github.io/V-Card/" target="_blank" rel="noopener nofollow">V-Card</a>
-                </p>
+                 <p>&copy; 2025 Shree Multi Pack. All realities reserved.</p>
+                <p class="footer-credit">View location with contact details <a href="https://shreemultipack214.github.io/V-Card/" target="_blank"
+                        rel="noopener nofollow">V-Card</a></p>
             </div>
         </div>
     </footer>
 
     <script src="templatemo-nexus-scripts.js"></script>
 
-    <script>
-        let url = 'https://script.google.com/macros/s/AKfycbz9D6Ysyeni8JFX3WxuY1SyGJz4d6kFdy5Iv64lSNUi07uGOfCEOL5FrXte2iZiHpj8pA/exec';
-        let form = document.querySelector('#form');
-        form.addEventListener('submit', (e) => {
-            e.target.btn.innerHTML = "Submitting...";
-            let d = new FormData(form);
-            fetch(url, {
-                method: 'POST',
-                body: d
-            }).then((res) => res.text())
-                .then((finalRes) => {
-                    e.target.btn.innerHTML = "Submited"
-                    console.log(finalRes)
-                });
-            e.preventDefault();
-        })
-    </script>
+  
 </body>
 
 </html>
-
-
-
